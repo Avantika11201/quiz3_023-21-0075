@@ -1,0 +1,62 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.signupPage h1, .signupPage h3{
+    display: block;
+}
+#signup {
+    width: 100%;
+    margin-top: 30vh;
+    align-items: center;
+    justify-content: center;
+}
+#checkboxwrite {
+    font-size: 10px;
+}
+#imgleft {
+    position: absolute;
+    width: 50%;
+}
+button {
+    width: 60px;
+}
+.iconimg {
+    width: 20px;
+    height: 20px;
+}
+.socialmediadiv {
+   
+    font-size: 10px;
+    background-color: white;
+    padding-left: 25px;
+    padding-top: 7px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 260px;
+}
+#leftdiv {
+    background-image: url("/img/myimg.png");
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+#rightdiv {
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.submitbtn {
+    width: 280px;
+    
+}
+#leftdiv a {
+    text-decoration: none;
+    color: black;
+}
